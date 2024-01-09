@@ -1,0 +1,76 @@
+@media only screen and (max-width:1280px){
+    .responsive_nav{
+        display: flex;
+        justify-content: center;
+    }
+    .responsive_nav>ul{
+        margin: 5px auto;
+    }
+    .contact_page_icon{
+        display: block;
+    }
+    .contact_heading{
+        text-align: left;
+    }
+    .contact_paragraph{
+        text-align: left;
+    }
+}
+@media only screen and (max-width:990px){
+    .responsive_nav{
+        display: block;
+    }
+    .responsive_btn{
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1rem;
+    }
+    .responsive_btn_color{
+        background-color: var(--bg_danger);
+        
+    }
+    
+    
+}
+@media screen and (max-width: 768px) {
+    .nav-btn {
+      visibility: hidden;
+    }
+    .swiper-pagination-bullet {
+      visibility: visible;
+    }
+    .image{
+        margin: 10px 0px; 
+    }
+    .responsive_form{
+        height: 150px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        
+        flex-direction: column;
+
+    }
+    .responsive_form>input{
+        width: 100% !important;
+        margin: 10px 0px;
+    }
+    .responsive_form>button{
+        height: 40px;
+    }
+    .responsive_map{
+        padding: 25px;
+    }
+    .section_work_data{
+        padding: 0px !important;
+    }
+    .testimonials_img{
+        width: 100% !important;
+    }
+    .swiper_item h3{
+        margin: 8px 0px;
+    }
+    
+
+  }
